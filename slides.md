@@ -2,11 +2,11 @@
 
 Huon Wilson
 
-<br>
+[@huon_w](https://twitter.com/huon_w)
 
 ![](parallel.svg)
 
-[<small>huonw.github.io/simple_parallel-jan16</small>](http://huonw.github.io/simple_parallel-jan16)
+[huonw.github.io/simple_parallel-jan16](http://huonw.github.io/simple_parallel-jan16)
 
 # Slooow, Simple: `for`
 
@@ -256,3 +256,7 @@ Simple, just:
 - `s/map/simple_parallel::map/`
 
 <small>(almost)</small>
+
+<hr class="pause">
+
+More info/links: [huonw.github.io/simple_parallel-jan16](http://huonw.github.io/simple_parallel-jan16)
