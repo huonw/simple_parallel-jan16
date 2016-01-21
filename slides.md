@@ -259,4 +259,4 @@ Simple, just:
 
 <hr class="pause">
 
-More info/links: [huonw.github.io/simple_parallel-jan16](http://huonw.github.io/simple_parallel-jan16)
+**More info: [huonw.github.io/simple_parallel-jan16](http://huonw.github.io/simple_parallel-jan16)**
