@@ -4,7 +4,7 @@ Huon Wilson
 
 <br>
 
-![](parallel.png)
+![](parallel.svg)
 
 [<small>huonw.github.io/simple_parallel-jan16</small>](http://huonw.github.io/simple_parallel-jan16)
 
@@ -45,6 +45,8 @@ fn main() {
 # Slooow, Simple: `for`
 
 ```rust
+
+
 let files = env::args().skip(1);
 
 for s in files {
@@ -97,22 +99,44 @@ simple_parallel::for_(files, |s| {
 # How does it work?
 
 ```rust
-pub fn for_<I, F>(iter: I, f: F)
+pub fn for_<I, F>(iter: I, func: F)
     where I: IntoIterator, // yields...
-          I::Item: Send + Sync, // which are passed to...
+          I::Item: Send, // which are passed to...
           F: Fn(I::Item) + Sync
 ```
 
-TODO: diagram showing iterator & some representation of parallelism
+<hr class="pause">
 
-TODO: remove Sync when crossbeam loses it
+![](for-first.svg)
+
+# How does it work?
+
+```rust
+pub fn for_<I, F>(iter: I, func: F)
+    where I: IntoIterator, // yields...
+          I::Item: Send, // which are passed to...
+          F: Fn(I::Item) + Sync
+```
+
+![](for-second.svg)
+
+# How does it work?
+
+```rust
+pub fn for_<I, F>(iter: I, func: F)
+    where I: IntoIterator, // yields...
+          I::Item: Send, // which are passed to...
+          F: Fn(I::Item) + Sync
+```
+
+![](for-third.svg)
 
 # Sharing
 
 Safe:
 
 ```rust
-let mut data = [0; 10];
+let mut data = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
 let outside = 1;
 
 simple_parallel::for_(&mut data, |elem| *elem += outside);
@@ -123,8 +147,8 @@ simple_parallel::for_(&mut data, |elem| *elem += outside);
 Unsafe:
 
 ```rust
-let mut data = [0; 10];
-let mut outside = 0;
+let mut data = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
+let mut outside = 1;
 
 simple_parallel::for_(&mut data, |elem| outside += *elem);
 ```
@@ -140,26 +164,33 @@ error: cannot assign to data in a captured outer variable in an `Fn` closure
 
 # Fast?
 
+![](photo-layout.png)
+
+<center>
+
 |   |   |
 |---|---|
-| `for ... in` | 19.7s |
-| `simple_parallel::for_` | 5.5s |
+| `for ... in` | **40** seconds |
+| `simple_parallel::for_` | **10** seconds |
+|  | **4**&times; faster. |
 
-3.6&times; faster.
+</center>
+
+
 
 # Iterators do more than `for`
 
 ```rust
 let number_of_errors =
     files
-        .map(|s| resize_image(s.as_ref()
+        .map(|s| resize_image(s.as_ref()))
         .filter(|e| e.is_err())
         .count();
 
 println!("{} errors occurred", number_of_errors);
 ```
 
-# `simple_parallel` does more than `for`!
+# `simple_parallel` does too!
 
 ```rust
 let number_of_errors = crossbeam::scope(|scope| {
@@ -174,6 +205,8 @@ let number_of_errors = crossbeam::scope(|scope| {
 
 println!("{} errors occurred", number_of_errors);
 ```
+
+<span style="display:block;text-align:right">(`std::thread::scoped`-pocalyse: [#24292](https://github.com/rust-lang/rust/issues/24292))</span>
 
 # Ordering?
 
@@ -193,25 +226,30 @@ let number_of_errors = crossbeam::scope(|scope| {
 println!("{} errors occurred", number_of_errors);
 ```
 
-TODO benchmark of this & `map`.
+# &nbsp;
 
-# TODO picture?
+![](goodbadugly-rev.jpg)
 
-(mirrored Good, Bad, Ugly poster)
+<div style="font-size: 0.7em; text-align: right">(with apologies)</div>
 
 # The Ugly
 
-- The internals
-- Panics in a job generally cascade to become an abort: need stable
-  `std::panic::recover` to be reliable.
-- To be generically useful, the `Iterator` is a black box
+- The internals, especially around panics (need `std::panic::recover`)
+- `Iterator` is the only bound, so only action available is `next`.
 
 # The Bad
 
-Inflexible: designed for flat, embarrassingly parallel jobs (unlike rayon).
+Inflexible: not designed for trees, divide-and-conquer (unlike rayon).
 
-TODO: comparison picture of flat vs. nested.
+![](tree.svg)
 
 # The Good
 
-TODO: summary
+Great for "flat", embarrassingly parallel work.
+
+![](flat.svg)
+
+Simple, almost:
+
+- `s/for/simple_parallel::for_/`
+- `s/map/simple_parallel::map/`

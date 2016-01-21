@@ -185,6 +185,9 @@ table th {
 img {
   max-width: 100%;
 }
+img[src$=".svg"] {
+  width: 100%;
+}
 .header-image {
   display: inline-block;
   height: 2em;
