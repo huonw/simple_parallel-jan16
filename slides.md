@@ -162,7 +162,7 @@ error: cannot assign to data in a captured outer variable in an `Fn` closure
 
 # Fast?
 
-![](photo-layout.png)
+![](photo-layout.jpg)
 
 <center>
 
