@@ -11,8 +11,8 @@ fn main() {
 
         simple_parallel::map(scope,
                              files,
-                             |s| resize_image(s.as_ref()))
-            .filter(|e| e.is_err())
+                             |path| resize_image(path.as_ref()))
+            .filter(|res| res.is_err())
             .count()
 
     });

@@ -15,8 +15,8 @@
    id="svg4221"
    version="1.1"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="for-second.svg"
-   inkscape:export-filename="/home/huon/projects/talks/simple_parallel-jan16/for-second.png"
+   sodipodi:docname="for-zeroth.svg"
+   inkscape:export-filename="/home/huon/projects/talks/simple_parallel-jan16/for-first.png"
    inkscape:export-xdpi="180"
    inkscape:export-ydpi="180">
   <defs
@@ -29,15 +29,15 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="2.8"
-     inkscape:cx="129.26984"
-     inkscape:cy="140.46403"
+     inkscape:cx="455.7113"
+     inkscape:cy="169.64202"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
      showguides="true"
      inkscape:guide-bbox="true"
      inkscape:object-nodes="true"
-     inkscape:snap-intersection-paths="false"
+     inkscape:snap-intersection-paths="true"
      inkscape:snap-object-midpoints="true"
      fit-margin-top="0"
      fit-margin-left="0"
@@ -48,17 +48,16 @@
      inkscape:window-x="65"
      inkscape:window-y="24"
      inkscape:window-maximized="1"
-     inkscape:snap-text-baseline="true"
-     inkscape:snap-grids="true">
+     inkscape:snap-text-baseline="true">
     <inkscape:grid
        type="xygrid"
        id="grid4794"
        originx="-14.499999"
-       originy="-360.85425" />
+       originy="-360.85424" />
     <sodipodi:guide
-       position="305.49999,59.145788"
+       position="266.23878,44.605237"
        orientation="0,1"
-       id="guide7236" />
+       id="guide7923" />
   </sodipodi:namedview>
   <metadata
      id="metadata4226">
@@ -92,14 +91,14 @@
        x="185"
        y="412.36221" />
     <rect
-       style="fill:#ff9191;fill-opacity:1;stroke:#c8c8c8;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect4769-0"
        width="90.000015"
        height="89.999992"
        x="295"
        y="412.36221" />
     <rect
-       style="fill:#ff9191;fill-opacity:1;stroke:#c8c8c8;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect4769-0-2"
        width="90.000015"
        height="89.999992"
@@ -130,17 +129,24 @@
          id="tspan4832"
          x="236.41626"
          y="404.08051">iter</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif Italic';letter-spacing:0px;word-spacing:0px;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="74.954239"
-       y="642.90271"
-       id="text4834"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         x="74.954239"
-         y="642.90271"
-         id="tspan4842">thread pool</tspan></text>
+    <circle
+       style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path4916"
+       cx="60"
+       cy="457.36221"
+       r="5" />
+    <circle
+       style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path4918"
+       cx="40"
+       cy="457.36221"
+       r="5" />
+    <circle
+       style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path4920"
+       cx="20"
+       cy="457.36221"
+       r="5" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30px;line-height:125%;font-family:monospace;-inkscape-font-specification:monospace;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -163,40 +169,16 @@
          x="400.86456"
          y="642.90271"
          id="tspan4871-9">&amp;func</tspan></text>
-    <circle
-       style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="path4916"
-       cx="60"
-       cy="457.36221"
-       r="5" />
-    <circle
-       style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="path4918"
-       cx="40"
-       cy="457.36221"
-       r="5" />
-    <circle
-       style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="path4920"
-       cx="20"
-       cy="457.36221"
-       r="5" />
-    <path
-       style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 394.31681,584.4978 -13.55796,4.02264 2.38383,-4.39515 -127.45946,-69.13101 4.76766,-8.7903 127.45945,69.13101 2.38383,-4.39515 z"
-       id="path4933"
-       inkscape:connector-curvature="0" />
-    <rect
-       style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="rect4769-0-6"
-       width="90.000015"
-       height="89.999992"
-       x="295"
-       y="412.36221" />
-    <path
-       style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       d="m 327.16463,567.18494 -8.61646,-11.21413 4.95766,0.64943 6.49417,-49.57647 9.9153,1.29883 -6.49418,49.57646 4.95764,0.64943 z"
-       id="path4850"
-       inkscape:connector-curvature="0" />
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif Italic';letter-spacing:0px;word-spacing:0px;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="74.954231"
+       y="642.90277"
+       id="text4834-8"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="74.954231"
+         y="642.90277"
+         id="tspan4842-0">thread pool</tspan></text>
   </g>
 </svg>

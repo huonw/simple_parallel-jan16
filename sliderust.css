@@ -157,7 +157,8 @@ pre {
 }
 table td, table th {
   border: 0px;
-  padding: 0.25em 5px;
+  padding: 0.25em 0.5em;
+  text-align: right;
 }
 table th {
   font-weight: normal;

@@ -7,8 +7,8 @@ fn main() {
 
     let number_of_errors =
         files
-        .map(|s| resize_image(s.as_ref()))
-        .filter(|e| e.is_err())
+        .map(|path| resize_image(path.as_ref()))
+        .filter(|res| res.is_err())
         .count();
 
     println!("{} errors occurred", number_of_errors);

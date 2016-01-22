@@ -11,8 +11,8 @@ fn main() {
 
         simple_parallel::unordered_map(scope,
                                        files,
-                                       |s| resize_image(s.as_ref()))
-            .filter(|e| e.1.is_err())
+                                       |path| resize_image(path.as_ref()))
+            .filter(|res| res.1.is_err())
             .count()
 
     });
