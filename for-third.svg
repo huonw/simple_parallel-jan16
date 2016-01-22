@@ -9,14 +9,14 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="138.89085mm"
-   height="89.695335mm"
-   viewBox="0 0 492.13295 317.81812"
+   width="137.48335mm"
+   height="87.551102mm"
+   viewBox="0 0 487.14574 310.22044"
    id="svg4221"
    version="1.1"
    inkscape:version="0.91 r13725"
    sodipodi:docname="for-third.svg"
-   inkscape:export-filename="/home/huon/projects/talks/simple_parallel-jan16/for-second.png"
+   inkscape:export-filename="/home/huon/projects/talks/simple_parallel-jan16/for-third.png"
    inkscape:export-xdpi="180"
    inkscape:export-ydpi="180">
   <defs
@@ -28,9 +28,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.979899"
-     inkscape:cx="301.13847"
-     inkscape:cy="180.12837"
+     inkscape:zoom="2.8"
+     inkscape:cx="303.9249"
+     inkscape:cy="104.96038"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -53,10 +53,10 @@
     <inkscape:grid
        type="xygrid"
        id="grid4794"
-       originx="-9.5128272"
-       originy="-360.85422" />
+       originx="-14.499999"
+       originy="-360.85424" />
     <sodipodi:guide
-       position="154.64286,44.605286"
+       position="149.65568,44.605277"
        orientation="0,1"
        id="guide7236" />
   </sodipodi:namedview>
@@ -76,30 +76,30 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-9.5128269,-373.68988)">
+     transform="translate(-14.5,-381.28754)">
     <rect
-       style="fill:#ff9191;fill-opacity:1;stroke:#c8c8c8;stroke-width:3.00000009;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#ff9191;fill-opacity:1;stroke:#c8c8c8;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect4769"
        width="90.000008"
        height="90.000031"
        x="75"
        y="412.36221" />
     <rect
-       style="fill:#ff9191;fill-opacity:1;stroke:#c8c8c8;stroke-width:3.00000009;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#ff9191;fill-opacity:1;stroke:#c8c8c8;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect4769-9"
        width="90.000015"
        height="89.999977"
        x="185"
        y="412.36221" />
     <rect
-       style="fill:#ff9191;fill-opacity:1;stroke:#c8c8c8;stroke-width:3.00000009;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#ff9191;fill-opacity:1;stroke:#c8c8c8;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect4769-0"
        width="90.000015"
        height="89.999992"
        x="295"
        y="412.36221" />
     <rect
-       style="fill:#ff9191;fill-opacity:1;stroke:#c8c8c8;stroke-width:3.00000009;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#ff9191;fill-opacity:1;stroke:#c8c8c8;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect4769-0-2"
        width="90.000015"
        height="89.999992"
@@ -121,7 +121,7 @@
        ry="54.999977" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:125%;font-family:monospace;-inkscape-font-specification:monospace;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30px;line-height:125%;font-family:monospace;-inkscape-font-specification:monospace;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="236.41626"
        y="404.08051"
        id="text4830"
@@ -130,56 +130,56 @@
          id="tspan4832"
          x="236.41626"
          y="404.08051">iter</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif Italic';letter-spacing:0px;word-spacing:0px;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="6.9542332"
-       y="646.90271"
-       id="text4834"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         x="6.9542332"
-         y="646.90271"
-         id="tspan4842">thread pool</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:125%;font-family:monospace;-inkscape-font-specification:monospace;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="270.44128"
-       y="646.90271"
-       id="text4867"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         x="270.44128"
-         y="646.90271"
-         id="tspan4871">func</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:125%;font-family:monospace;-inkscape-font-specification:monospace;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="396.57141"
-       y="646.90271"
-       id="text4867-8"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         x="396.57141"
-         y="646.90271"
-         id="tspan4871-9">func</tspan></text>
     <circle
-       style="fill:#ff9191;fill-opacity:1;stroke:#c8c8c8;stroke-width:1.00000003;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#ff9191;fill-opacity:1;stroke:#c8c8c8;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="path4916"
        cx="60"
        cy="457.36221"
        r="5" />
     <circle
-       style="fill:#ff9191;fill-opacity:1;stroke:#c8c8c8;stroke-width:1.00000003;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#ff9191;fill-opacity:1;stroke:#c8c8c8;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="path4918"
        cx="40"
        cy="457.36221"
        r="5" />
     <circle
-       style="fill:#ff9191;fill-opacity:1;stroke:#c8c8c8;stroke-width:1.00000003;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#ff9191;fill-opacity:1;stroke:#c8c8c8;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="path4920"
        cx="20"
        cy="457.36221"
        r="5" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30px;line-height:125%;font-family:monospace;-inkscape-font-specification:monospace;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="275.492"
+       y="642.90277"
+       id="text4867-5"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="275.492"
+         y="642.90277"
+         id="tspan8529">&amp;func</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30px;line-height:125%;font-family:monospace;-inkscape-font-specification:monospace;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="400.86456"
+       y="642.90277"
+       id="text4867-8-6"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="400.86456"
+         y="642.90277"
+         id="tspan4871-9-5">&amp;func</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif Italic';letter-spacing:0px;word-spacing:0px;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="74.954216"
+       y="642.90271"
+       id="text4834-1"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="74.954216"
+         y="642.90271"
+         id="tspan4842-2">thread pool</tspan></text>
   </g>
 </svg>
